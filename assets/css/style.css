@@ -1,19 +1,20 @@
 body{
-background-image:"https://cdn.wallpapersafari.com/31/22/ZQzWpq.jpg";
+background-image: url("http://hdimages.org/wp-content/uploads/2016/10/css-background-image-HD5.jpg");
+
 }
 
 #container{
     width:740px;
     height:740px;
-    background:#FFE4C4;
+    background:rgb(206, 179, 179);
     margin: 0 auto;
 }
 
 .jumbotron {
-    padding: 2rem 1rem;
+    padding: 0rem 1rem;
     margin-bottom: 2rem;
     border-radius: .3rem;
-    background:#FFE4C4;
+    background:rgb(206, 179, 179);
    
 }
 
@@ -25,7 +26,25 @@ h1{
     padding-top: 50px;
 
 }
-/* #count{
-    display:none;
-} */
+
+#questions{
+    padding-bottom:5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding-right:20px;
+}
+
+#answers{
+    margin-right:20px;
+    padding:20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#quiz{
+    padding-left:20px;
+}
 
