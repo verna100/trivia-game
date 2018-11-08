@@ -1,13 +1,14 @@
 body{
-background-image: url("http://hdimages.org/wp-content/uploads/2016/10/css-background-image-HD5.jpg");
+/* background-image: url("http://hdimages.org/wp-content/uploads/2016/10/css-background-image-HD5.jpg"); */
 
 }
 
 #container{
     width:740px;
-    height:740px;
+    height:1500px;
     background:rgb(206, 179, 179);
     margin: 0 auto;
+    padding-left:30px;
 }
 
 .jumbotron {
@@ -31,6 +32,10 @@ h1{
     padding-bottom:5px;
     font-family: 'Nunito', sans-serif;
 }
+
+ol:hover {
+    color: blue;
+  }
 
 label {
     display: inline-block;
